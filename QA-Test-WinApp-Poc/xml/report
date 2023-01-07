@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Codoid\source\repos\QA-Test-WinApp-Poc\QA-Test-WinApp-Poc\bin\Debug\QA-Test-WinApp-Poc.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2022-12-05" time="01:30:51">
+  <environment nunit-version="3.13.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Codoid\source\repos\QA-Test-WinApp-Poc\QA-Test-WinApp-Poc\bin\Debug" machine-name="DESKTOP-3VGJOQS" user="Codoid" user-domain="DESKTOP-3VGJOQS" />
+  <culture-info current-culture="en-IN" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Codoid\source\repos\QA-Test-WinApp-Poc\QA-Test-WinApp-Poc\bin\Debug\QA-Test-WinApp-Poc.dll" executed="True" result="Failure" success="False" time="0.932" asserts="0">
+    <properties>
+      <property name="_PID" value="10772" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+      <stack-trace />
+    </failure>
+    <results>
+      <test-suite type="SetUpFixture" name="[default namespace]" executed="True" result="Error" success="False" time="0.887" asserts="0">
+        <failure>
+          <message><![CDATA[System.IO.FileNotFoundException : Could not load file or assembly 'Allure.SpecFlowPlugin' or one of its dependencies. The system cannot find the file specified.]]></message>
+          <stack-trace><![CDATA[   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at TechTalk.SpecFlow.Infrastructure.BindingAssemblyLoader.Load(String assemblyName) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\IBindingAssemblyLoader.cs:line 14
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at TechTalk.SpecFlow.TestRunnerManager.GetBindingAssemblies() in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 84
+   at TechTalk.SpecFlow.TestRunnerManager.InitializeBindingRegistry(ITestRunner testRunner) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 71
+   at TechTalk.SpecFlow.TestRunnerManager.CreateTestRunner(Int32 threadId) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 62
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunnerWithoutExceptionHandling(Int32 threadId) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 153
+   at TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(Int32 threadId) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 141
+   at TechTalk.SpecFlow.TestRunnerManager.OnTestRunStart(Assembly testAssembly, IContainerBuilder containerBuilder) in D:\a\1\s\TechTalk.SpecFlow\TestRunnerManager.cs:line 230
+   at QA_Test_WinApp_Poc_NUnitAssemblyHooks.AssemblyInitialize() in C:\Users\Codoid\source\repos\QA-Test-WinApp-Poc\QA-Test-WinApp-Poc\obj\Debug\NUnit.AssemblyHooks.cs:line 20]]></stack-trace>
+        </failure>
+        <results>
+          <test-suite type="TestSuite" name="QA_Test_WinApp_Poc" executed="True" result="Error" success="False" time="0.872" asserts="0">
+            <failure>
+              <message><![CDATA[OneTimeSetUp: System.IO.FileNotFoundException : Could not load file or assembly 'Allure.SpecFlowPlugin' or one of its dependencies. The system cannot find the file specified.]]></message>
+              <stack-trace />
+            </failure>
+            <results />
+          </test-suite>
+          <test-suite type="TestSuite" name="Zotero" executed="True" result="Error" success="False" time="0.875" asserts="0">
+            <failure>
+              <message><![CDATA[OneTimeSetUp: System.IO.FileNotFoundException : Could not load file or assembly 'Allure.SpecFlowPlugin' or one of its dependencies. The system cannot find the file specified.]]></message>
+              <stack-trace />
+            </failure>
+            <results />
+          </test-suite>
+          <test-suite type="TestSuite" name="Resources" executed="True" result="Error" success="False" time="0.875" asserts="0">
+            <failure>
+              <message><![CDATA[OneTimeSetUp: System.IO.FileNotFoundException : Could not load file or assembly 'Allure.SpecFlowPlugin' or one of its dependencies. The system cannot find the file specified.]]></message>
+              <stack-trace />
+            </failure>
+            <results />
+          </test-suite>
+          <test-suite type="TestSuite" name="Features" executed="True" result="Error" success="False" time="0.875" asserts="0">
+            <failure>
+              <message><![CDATA[OneTimeSetUp: System.IO.FileNotFoundException : Could not load file or assembly 'Allure.SpecFlowPlugin' or one of its dependencies. The system cannot find the file specified.]]></message>
+              <stack-trace />
+            </failure>
+            <results />
+          </test-suite>
+          <test-suite type="TestFixture" name="ScenarioFeature" description="Scenario" executed="True" result="Error" success="False" time="0.875" asserts="0">
+            <properties>
+              <property name="Description" value="Scenario" />
+            </properties>
+            <failure>
+              <message><![CDATA[OneTimeSetUp: System.IO.FileNotFoundException : Could not load file or assembly 'Allure.SpecFlowPlugin' or one of its dependencies. The system cannot find the file specified.]]></message>
+              <stack-trace />
+            </failure>
+            <results />
+          </test-suite>
+          <test-case name="QA_Test_WinApp_Poc.Zotero.Resources.Features.ScenarioFeature.ToVerifyTheNewItemMapCreationAndEnteringDatas" description="To verify the new item Map creation and entering data's" executed="True" result="Error" success="False" time="0.875" asserts="0">
+            <categories>
+              <category name="Abc" />
+            </categories>
+            <properties>
+              <property name="Description" value="To verify the new item Map creation and entering data's" />
+            </properties>
+            <failure>
+              <message><![CDATA[OneTimeSetUp: System.IO.FileNotFoundException : Could not load file or assembly 'Allure.SpecFlowPlugin' or one of its dependencies. The system cannot find the file specified.]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

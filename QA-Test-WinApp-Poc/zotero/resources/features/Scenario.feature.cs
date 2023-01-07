@@ -75,11 +75,11 @@ namespace QA_Test_WinApp_Poc.Zotero.Resources.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("To verify the new item Map creation and entering data\'s")]
-        [NUnit.Framework.CategoryAttribute("Abcd")]
+        [NUnit.Framework.CategoryAttribute("Abc")]
         public void ToVerifyTheNewItemMapCreationAndEnteringDatas()
         {
             string[] tagsOfScenario = new string[] {
-                    "Abcd"};
+                    "Abc"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("To verify the new item Map creation and entering data\'s", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 6

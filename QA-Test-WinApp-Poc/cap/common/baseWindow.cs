@@ -60,6 +60,10 @@ namespace QA_Test_WinApp_Poc.cap.common
                 //window.TakeScreenshot(strExtentReportScreenShotFilePath + counter + ".png", System.Drawing.Imaging.ImageFormat.Png);
                 var screenCapture = windowsUtils.getWindowInstance().GetScreenshot();
                 screenCapture.SaveAsFile(strImagePath);
+                /*byte[] imageArray = System.IO.File.ReadAllBytes(@"C:\Users\Codoid\source\repos\QA-Test-WinApp-Poc\QA-Test-WinApp-Poc\Reports");
+                string base64ImageRepresentation = Convert.ToBase64String(imageArray);*/
+
+
             }
             catch (Exception ex)
             {

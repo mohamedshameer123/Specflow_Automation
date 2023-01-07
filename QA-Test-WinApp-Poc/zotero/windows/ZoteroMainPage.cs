@@ -193,6 +193,28 @@ namespace QA_Test_WinApp_Poc.zotero.windows
 
         }
 
+        public WindowsDriver<WindowsElement> Winappdriver()
 
-    }
-}
+            {
+            AppiumOptions options = new AppiumOptions();
+            options.AddAdditionalCapability("app", "C:\\Program Files (x86)\\Zotero\\Zotero.exe");
+            options.AddAdditionalCapability("deviceName", "WindowsPc");
+            window = new WindowsDriver<WindowsElement>(new Uri("http://127.0.0.1:4723/"), options);
+            Console.WriteLine("---> Windows App launched ... Successfuly.... :) ");
+            return window;
+            Console.WriteLine("Num>>>>>" + window);
+        }
+
+    
+            
+
+        }
+
+
+        }
+
+
+
+
+
+    

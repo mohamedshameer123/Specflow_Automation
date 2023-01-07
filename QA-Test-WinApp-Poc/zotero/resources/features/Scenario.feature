@@ -1,8 +1,8 @@
-﻿Feature: Scenario
+﻿    Feature: Scenario
 
 A short summary of the feature
 
-@Abcd
+@Abc
 Scenario: To verify the new item Map creation and entering data's
     Given I launch the application and click the Map in the New Item
     When I enter the data for the Item Map
@@ -24,7 +24,7 @@ Given I am on the created Newspaper Article Item
 When I click the button on the Newspaper Article info tab
 Then I verify the functionality of the buttons for Newspaper Article
 
-@Abcd    
+@Abcd   
 Scenario: To verify the new item Patent creation and entering data's
     Given I click on the Patent
     When I enter the data for the Item Patent

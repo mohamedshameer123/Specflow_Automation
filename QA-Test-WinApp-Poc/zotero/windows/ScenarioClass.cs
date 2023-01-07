@@ -50,7 +50,7 @@ namespace QA_Test_WinApp_Poc.zotero.windows
 
         public By TitlePreprint => By.Name("Preprint title Sample>>. Preprint.");
 
-        public By TitleMap => By.Name("MAP Test Sample>>. Map.");
+        public By TitleMap => By.Name("MAP Test Sample>>. Mapss.");
         public By TitleNewspaper => By.Name("Newspaper Sample. Newspaper Article.");
 
         public By TitlePresentation => By.Name("Tester sample. Presentation.");
@@ -1442,6 +1442,7 @@ namespace QA_Test_WinApp_Poc.zotero.windows
             Thread.Sleep(2000);
             WindowsElement Newitem = _window.FindElement(NewItemMenu);
             Newitem.Click();
+            Newitem.SendKeys(OpenQA.Selenium.Keys.ArrowDown);
             Newitem.SendKeys(OpenQA.Selenium.Keys.ArrowDown);
             Newitem.SendKeys(OpenQA.Selenium.Keys.Enter);
 

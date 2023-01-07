@@ -32,5 +32,12 @@ namespace QA_Test_WinApp_Poc
         {
             windowinitialize.newzoterohomepage.afterclsimport();
         }
+        [Then(@"I Get Root")]
+        public void ThenIGetRoot()
+        {
+            windowinitialize.zoteromainpage.Winappdriver();
+        }
+
+
     }
 }

@@ -29,5 +29,15 @@ namespace QA_Test_WinApp_Poc
         {
             windowinitialize.zoterohomepage.clickfilebtn();
         }
+        [Then(@"I get the root")]
+        public void ThenIGetTheRoot()
+        {
+
+            windowinitialize.zoteromainpage.Winappdriver();
+
+        }
+
+
+
     }
 }
